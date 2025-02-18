@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function MyButton(){
-  const [count,setcount] = useState(0);
+  const [count,setcount] = useState();
   function handleclick(){
     setcount(count+1);
   }
